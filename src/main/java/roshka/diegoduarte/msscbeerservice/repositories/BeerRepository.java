@@ -15,6 +15,7 @@ public interface BeerRepository extends CrudRepository<Beer, UUID> {
 
     Page<Beer> findAllByBeerNameAndBeerStyle(String beerName, BeerStyleEnum beerStyle, Pageable pageable);
 
-    Page<Beer> findAll ( Pageable pageable );
+    Page<Beer> findAll(Pageable pageable);
 
+    Beer findByUpc(String upc);
 }
