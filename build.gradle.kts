@@ -50,6 +50,10 @@ dependencies {
     testImplementation ("org.mockito:mockito-junit-jupiter:5.16.0")
     //database
     runtimeOnly ("com.h2database:h2")
+
+    implementation("javax.cache:cache-api")
+    implementation("org.ehcache:ehcache::jakarta")
+
 }
 
 tasks.withType<Test> {
