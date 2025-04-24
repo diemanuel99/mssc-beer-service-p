@@ -1,16 +1,14 @@
-package roshka.diegoduarte.msscbeerservice.web.service.inventory;
+package roshka.diegoduarte.msscbeerservice.services.inventory;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import roshka.diegoduarte.msscbeerservice.web.service.inventory.model.BeerInventoryDto;
+import roshka.diegoduarte.msscbeerservice.services.inventory.model.BeerInventoryDto;
 
 import java.util.List;
 import java.util.Objects;

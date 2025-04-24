@@ -1,4 +1,4 @@
-package roshka.diegoduarte.msscbeerservice.web.service;
+package roshka.diegoduarte.msscbeerservice.services;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.cache.annotation.Cacheable;

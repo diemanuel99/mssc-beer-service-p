@@ -1,7 +1,6 @@
-package roshka.diegoduarte.msscbeerservice.web.service;
+package roshka.diegoduarte.msscbeerservice.services;
 
 import org.springframework.data.domain.PageRequest;
-import org.springframework.stereotype.Service;
 import roshka.diegoduarte.msscbeerservice.web.model.BeerDto;
 import roshka.diegoduarte.msscbeerservice.web.model.BeerPagedList;
 import roshka.diegoduarte.msscbeerservice.web.model.BeerStyleEnum;

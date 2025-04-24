@@ -1,6 +1,5 @@
 package roshka.diegoduarte.msscbeerservice.web.controller;
 
-import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;
@@ -10,11 +9,9 @@ import org.springframework.web.bind.annotation.*;
 import roshka.diegoduarte.msscbeerservice.web.model.BeerDto;
 import roshka.diegoduarte.msscbeerservice.web.model.BeerPagedList;
 import roshka.diegoduarte.msscbeerservice.web.model.BeerStyleEnum;
-import roshka.diegoduarte.msscbeerservice.web.service.BeerService;
+import roshka.diegoduarte.msscbeerservice.services.BeerService;
 
 import java.util.UUID;
-
-import static org.aspectj.weaver.tools.cache.SimpleCacheFactory.path;
 
 @RequiredArgsConstructor
 @RequestMapping("/api/v1/")

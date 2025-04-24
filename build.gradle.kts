@@ -47,9 +47,12 @@ dependencies {
     testImplementation ("org.mockito:mockito-junit-jupiter")
     //database
     runtimeOnly ("com.h2database:h2")
+    implementation("com.mysql:mysql-connector-j")
 
     implementation("javax.cache:cache-api")
     implementation("org.ehcache:ehcache::jakarta")
+
+
 
 }
 

@@ -1,6 +1,5 @@
 package roshka.diegoduarte.msscbeerservice.web.controller;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,12 +10,11 @@ import org.springframework.test.web.servlet.MockMvc;
 import roshka.diegoduarte.msscbeerservice.bootstrap.BeerLoader;
 import roshka.diegoduarte.msscbeerservice.web.model.BeerDto;
 import roshka.diegoduarte.msscbeerservice.web.model.BeerStyleEnum;
-import roshka.diegoduarte.msscbeerservice.web.service.BeerService;
+import roshka.diegoduarte.msscbeerservice.services.BeerService;
 
 import java.math.BigDecimal;
 import java.util.UUID;
 
-import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyBoolean;
 import static org.mockito.BDDMockito.given;

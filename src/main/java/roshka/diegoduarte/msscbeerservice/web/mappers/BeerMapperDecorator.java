@@ -1,11 +1,9 @@
 package roshka.diegoduarte.msscbeerservice.web.mappers;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
 import roshka.diegoduarte.msscbeerservice.domain.Beer;
 import roshka.diegoduarte.msscbeerservice.web.model.BeerDto;
-import roshka.diegoduarte.msscbeerservice.web.service.inventory.BeerInventoryService;
+import roshka.diegoduarte.msscbeerservice.services.inventory.BeerInventoryService;
 
 public abstract class BeerMapperDecorator implements BeerMapper {
     private BeerInventoryService beerInventoryService;

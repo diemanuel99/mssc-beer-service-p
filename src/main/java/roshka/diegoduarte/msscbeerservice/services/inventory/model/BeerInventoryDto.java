@@ -1,4 +1,4 @@
-package roshka.diegoduarte.msscbeerservice.web.service.inventory.model;
+package roshka.diegoduarte.msscbeerservice.services.inventory.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

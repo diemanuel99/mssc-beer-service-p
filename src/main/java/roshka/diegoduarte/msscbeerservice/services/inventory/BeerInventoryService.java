@@ -1,4 +1,4 @@
-package roshka.diegoduarte.msscbeerservice.web.service.inventory;
+package roshka.diegoduarte.msscbeerservice.services.inventory;
 
 import java.util.UUID;
 
